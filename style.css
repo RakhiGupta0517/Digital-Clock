@@ -1,59 +1,57 @@
-*{
-margin: 0;
-padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: sans-serif;
-    align-items: center;
-    height: 100vh;
-    background: url('/clock.jpeg');
-    background-size: cover;
-    overflow: hidden;
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: sans-serif;
+	align-items: center;
+	height: 100vh;
+	background: url('/clock.jpeg');
+	background-size: cover;
+	overflow: hidden;
 }
-h2{
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 24px;
-    text-align: center;
-    color: blueviolet
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-align: center;
+	color: blueviolet;
 }
-.clock{
-    display: flex;
+.clock {
+	display: flex;
 }
-.clock div{
-    margin: 5px;
-    position: relative;
+.clock div {
+	margin: 5px;
+	position: relative;
 }
-.clock span{
-    width: 100px;
-height: 80px;
-background-color: slateblue;
-opacity: 80%;
-color: white;
-font-size: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-shadow: 2px 2px 4px rgba(0,0,0, 0.3)
+.clock span {
+	width: 100px;
+	height: 80px;
+	background-color: slateblue;
+	opacity: 80%;
+	color: white;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
-.clock .text{
-    height: 30px;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background: darkblue;
-    opacity: 80%
-    
+.clock .text {
+	height: 30px;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background: darkblue;
+	opacity: 80%;
 }
-.clock #ampm{
-    bottom: 0;
-    position: absolute;
-    width:60px;
-    font-size: 20px;
-    background: green;
-    height: 30px;
+.clock #ampm {
+	bottom: 0;
+	position: absolute;
+	width: 60px;
+	font-size: 20px;
+	background: green;
+	height: 30px;
 }
-
