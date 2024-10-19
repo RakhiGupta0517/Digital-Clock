@@ -1,4 +1,4 @@
-* {
+ * {
 	margin: 0;
 	padding: 0;
 }
@@ -9,7 +9,7 @@ body {
 	font-family: sans-serif;
 	align-items: center;
 	height: 100vh;
-	background: url('/clock.jpeg');
+	/* background: url('/clock.jpeg'); */
 	background-size: cover;
 	overflow: hidden;
 }
@@ -20,13 +20,16 @@ h2 {
 	text-align: center;
 	color: blueviolet;
 }
+
 .clock {
 	display: flex;
 }
+
 .clock div {
 	margin: 5px;
-	position: relative;
+	position: relative; 
 }
+
 .clock span {
 	width: 100px;
 	height: 80px;
@@ -37,8 +40,9 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	/* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
 }
+
 .clock .text {
 	height: 30px;
 	font-size: 10px;
@@ -47,11 +51,12 @@ h2 {
 	background: darkblue;
 	opacity: 80%;
 }
+
 .clock #ampm {
 	bottom: 0;
 	position: absolute;
 	width: 60px;
 	font-size: 20px;
-	background: green;
-	height: 30px;
-}
+	background: green; 
+	 height: 30px;
+} 
